@@ -1,0 +1,61 @@
+.fc-scrollgrid-shrink-cushion,
+.fc-cell-shaded {
+    display: none;
+}
+
+.fc-col-header-cell-cushion {
+    color: var(--dark);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.fc-button-primary {
+    background: var(--fade);
+}
+
+.fc-timegrid-slot-label-cushion {
+    text-transform: uppercase;
+}
+
+.fc-toolbar {
+    justify-content: space-around !important;
+}
+
+.fc-header-toolbar {
+    margin-bottom: 1rem !important;
+}
+
+.fc-header-toolbar {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    background-color: var(--light);
+    border-bottom: 1px solid var(--light);
+}
+
+.fc-col-header {
+    position: sticky;
+    top: 20px;
+    z-index: 9;
+    border-bottom: 1px solid var(--light);
+}
+
+.fc-timegrid-axis-frame {
+    display: none;
+}
+
+.fc-today-button {
+    margin-left: 1rem !important;
+}
+
+.fc-timegrid {
+    overflow-y: auto;
+    height: calc(100% - 80px); 
+}
+
+.fc-scrollgrid-section-header {
+    position: sticky;
+    top: 80px;
+    z-index: 10;
+    background-color: var(--light);
+}

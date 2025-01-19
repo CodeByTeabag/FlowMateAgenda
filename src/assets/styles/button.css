@@ -1,0 +1,23 @@
+button {
+    padding: 0.7rem 1.2rem 0.7rem 1.2rem !important;
+    border: none !important;
+    border-radius: 25px !important;
+}
+
+button:focus {
+    border: none !important;
+}
+
+btn-close:focus {
+    box-shadow: none !important;
+}
+
+button [type="image"] {
+    background: transparent !important;
+}
+
+.btn-fade {
+    background: var(--fade) !important;
+    color: white !important;
+}
+

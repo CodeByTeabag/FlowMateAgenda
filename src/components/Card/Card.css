@@ -1,0 +1,7 @@
+.card {
+    width: 100%;
+    background: var(--light);
+    border-radius: 25px;
+    height: 95.5vh;
+    overflow-y: scroll
+}

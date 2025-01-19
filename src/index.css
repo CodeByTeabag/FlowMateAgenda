@@ -1,0 +1,26 @@
+:root {
+  --primary: #03002B;
+  --secondary: #252349;
+  --light: #ffffff;
+  --dark: #000000;
+  --inactive: #4b4b4b;
+  --fade: linear-gradient(145deg, #CC00FF, #1201FF);
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: var(--primary);
+  color: var(--light);
+}
+
+section, .container-center {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+hr {
+  opacity: 1 !important;
+}

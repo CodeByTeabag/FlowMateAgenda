@@ -1,0 +1,69 @@
+.logo {
+    width: 3rem;
+    height: 3rem;
+    padding: 5px;
+    background: var(--fade);
+    color: var(--light);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--inactive);
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    background: var(--secondary);
+    color: var(--light);
+    border-radius: 5px;
+}
+
+nav ul li p {
+    margin-left: 1rem;
+}
+
+ul li:hover img {
+    filter: brightness(0) invert(1);
+}
+
+nav ul li.agenda-selected,
+nav ul li.tasks-selected,
+nav ul li.priority-selected,
+nav ul li.notifications-selected {
+    color: var(--light);
+}
+
+nav ul li.agenda-selected img,
+nav ul li.tasks-selected img,
+nav ul li.priority-selected img,
+nav ul li.notifications-selected img {
+    filter: brightness(0) invert(1);
+}
+
+nav ul li p {
+    margin-left: 1rem;
+}
+
+
+ul li:hover img {
+    filter: brightness(0) invert(1);
+}
+
